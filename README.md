@@ -25,7 +25,7 @@ let query = @``
 
 - Stage: 0
 - Champion: HE Shi-Jun (hax)
-- Author: @hax, @sken130
+- Authors: @hax, @sken130
 
 ## Motivation
 
@@ -417,11 +417,11 @@ let promptForLLM = @`````
 
     ## Improved code
     ```js
-    let s1 = @`
+    let s1 = @``
       This is a
       string across
       multiple lines
-      `
+      ``
     let a = 1, b = 2
     let s2 = `a + b = ${a + b}`
     ```
