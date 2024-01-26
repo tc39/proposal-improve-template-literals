@@ -451,3 +451,4 @@ Raw string literals should always give raw string，the current proposed `String
 - https://es.discourse.group/t/raw-string-literals-that-can-contain-any-arbitrary-text-without-the-need-for-special-escape-sequences/1757
 - https://github.com/tc39/proposal-string-dedent/issues/40
 - https://github.com/tc39/proposal-string-dedent/issues/76
+- https://github.com/golang/go/issues/32590
