@@ -43,10 +43,12 @@ To address this, this proposal allows for flexible start and end delimiters so t
 2. Support interpolations in the same fashion. As above, because *all* strings must be representable without escapes or substitutions, it must always be possible for the user to specify an interpolation delimiter that will be guaranteed to not collide with any text contents.
 3. Support tag functions as current tagged template literals do.
 
-## Possible Extra Goals
+## Extra Goals (if possible)
 4. Multiline string literals should look pleasant in code and should not make indentation within the compilation unit look strange. Importantly, literal values that themselves have no indentation should not be forced to occupy the first column of the file as that can break up the flow of code and will look unaligned with the rest of the code that surrounds it. This behavior should be easy to override while keeping literals clear and easy to read.
     - Note, this goal might also be meet with `String.dedent` proposal, but syntax solution likely has better ergonomics and other benefits.
-5. Allow mechnism like [Markdown info string](https://spec.commonmark.org/0.30/#info-string), which can be leavaged by tools (for example, use for syntax highlighting).
+5. Nice to have mechnism like [Markdown info string](https://spec.commonmark.org/0.30/#info-string), which can be leavaged by tools (for example, use for syntax highlighting).
+6. Nice to have mechnism to do comments (though people could abuse interpolations for that purpose)
+7. Nice to have mechnism to enable escaping in specified place (Swift support that)
 
 ## Possible Solution
 
