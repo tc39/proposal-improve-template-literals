@@ -50,6 +50,7 @@ To address this, this proposal allows for flexible start and end delimiters so t
 6. Nice to have mechnism like [Markdown info string](https://spec.commonmark.org/0.30/#info-string), which can be leavaged by tools (for example, use for syntax highlighting).
 7. Nice to have mechnism to do comments. (though people could abuse interpolations for that purpose)
 8. Nice to have mechnism to enable escaping in specified place. (Swift support that.)
+9. To nest JS code, it will be better if the syntax allow short delimeter outside, long delimeter inside. So when you write nested JS code, you don't need to go back to the start and change the delimiter. This is also help LLM AI to generate JS code, because current LLM can't backtrace and modify the codes they already output.
 
 ## Possible Solution
 
