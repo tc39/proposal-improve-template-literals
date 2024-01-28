@@ -357,9 +357,9 @@ let promptForLLM = `
 You are a AI assistant to give advice to programmers,
 for example, given the code:
 \`\`\`js
-let s1 = "This is a\n"
-  + "string across\n"
-  + "multiple lines.\n"
+let s1 = "This is a\\n"
+  + "string across\\n"
+  + "multiple lines.\\n"
 let a = 1, b = 2
 let s2 = "a + b = " + (a + b)
 \`\`\`
@@ -371,9 +371,9 @@ the string concatenation.
 
 ## Original code
 \`\`\`js
-let s1 = "This is a\n"
-  + "string across\n"
-  + "multiple lines.\n"
+let s1 = "This is a\\n"
+  + "string across\\n"
+  + "multiple lines.\\n"
 let a = 1, b = 2
 let s2 = "a + b = " + (a + b)
 \`\`\`
