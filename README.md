@@ -1,4 +1,4 @@
-# Raw string literals
+# Improve template literals
 
 ## TLDR.
 
@@ -23,7 +23,7 @@ let query = @``
 
 ## Status
 
-- Stage: 0
+- Stage: 1
 - Champion: HE Shi-Jun (hax)
 - Authors: @hax, @sken130
 
